@@ -65,7 +65,7 @@ input[type="text"]::placeholder{
 .todo li{
     flex: 1;
 }
-.trash-btn,.complete-btn{
+.trash-btn,.complete-btn,.edit-btn{
     background-color:#ff6f47;
     color: white;
     cursor:pointer;
@@ -79,7 +79,10 @@ input[type="text"]::placeholder{
 .todo-item{
     padding:0 0.5rem;
 }
-.fa-trash,.fa-check{
+.edit-btn{
+    background-color:rgb(222, 222, 23);
+}
+.fa-trash,.fa-check,.fa-edit{
     pointer-events:none
 }
 .completed{
@@ -124,4 +127,3 @@ div.select:hover::after{
     color:#ff6f47;
 }
 
- 
